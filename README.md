@@ -1,26 +1,22 @@
-# gulp-aperitif
+# wikipedia-redesign
 
-Gulp starter template for new projects. It includes: browser live reloads, SCSS preprocessor, images optimization, JS and CSS bundling and minification.
+This is a redesign of the wikipedia website. The project has been used to complete the FreeCodeCamp tribute page project.
+
+You can see the real pixels on [codepen](https://codepen.io/mmode/pen/zJjBdQ).
+
+Visit my [FreeCodeCamp profile](https://www.freecodecamp.org/mmode)
+
+The project uses HTML, SCSS and gulpJS.
+
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The project has been build using my other project [gulp-aperitif](https://github.com/mmode/gulp-aperitif), a gulpJS starter template.
+
 
 ### Installing
 
-Clone the repository
-
-```
-$ git clone https://github.com/mmode/gulp-aperitif.git project-folder
-```
-
-then from the project folder install the dependencies
-
-```
-$ npm install
-```
-
-last run gulp to start the scripts
+fork or clone the project and run gulp for development.
 
 ```
 $ gulp
@@ -36,21 +32,12 @@ $ gulp build
 
 to build the deployment files.
 
-## Dependencies
-
-* del
-* gulp
-* gulp-cache
-* gulp-cssnano
-* gulp-imagemin
-* gulp-sass
-* gulp-uglify
-* gulp-useref
-* run-sequence
-
 ## Author
 
-[Nicola D'Aniello](https://github.com/mmode)
+Nicola D'Aniello
+
+# [github](https://github.com/mmode)
+# [codepen](https://codepen.io/mmode)
 
 ## License
 
