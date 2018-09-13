@@ -1,0 +1,81 @@
+@import '_variables.scss';
+
+#navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-basis: 20%;
+    z-index: $z-index-navbar;
+
+    .brand {
+        width: 100%;
+        margin: 0px;
+        padding: 1rem;
+        border-bottom: 1px solid darken( $light, 10% );
+        background-color: #fff;
+        text-align: center;
+
+        .logo {
+            max-width: 100%;
+        }
+    }
+}
+  
+
+
+.bars {
+    padding: 1rem 1rem;
+    font-size: 1.4rem;
+    width: 100%;
+    background-color: $white;
+
+    a {
+        color: $dark;
+
+        &:hover {
+            color: lighten( $dark, 20% );
+        }
+    }
+  }
+
+
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  
+    .header {
+        width:100%;
+        text-align: center;
+    }
+
+    .subnav {
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+
+        .nav-link {
+            padding: 0.6rem 2.2rem;
+            font-size: 0.7rem;
+            font-weight: 400;
+            border: none;
+        }
+    }
+    
+    .nav-link {
+        display: block;
+        width: 100%;
+        padding: 0.8rem 1rem;
+        color: $dark;
+        border-bottom: 1px solid #ddd;
+        font-size: 0.8rem;
+        font-weight: 800;
+        // font-family: $headings-font;
+    
+        &:hover {
+            color: lighten( $dark, 30% );
+        }
+    }
+}

@@ -1,7 +1,7 @@
 {
-  "name": "gulp-aperitif",
+  "name": "wikipedia-redesign",
   "version": "1.0.0",
-  "description": "Gulp project template.",
+  "description": "Redesign of wikipedia. Also tribute page for the FreeCodeCamp project.",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {

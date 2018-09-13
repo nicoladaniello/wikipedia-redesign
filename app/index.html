@@ -12,11 +12,96 @@
         <!-- THE BELOW COMMENTS ARE NECESSARY FOR GULP USEREF PLUGIN -->
         <!--build:css css/bundle.min.css-->
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/navbar.css">
         <!-- endbuild -->
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     </head>
 
     <body>
-        <h1>Hello World!</h1>
+        <div id="main">
+            <nav id="navbar">
+                <div class="bars">
+                    <a href="#">&#9776;</a>
+                </div>
+                <div class="brand">
+                    <a href="https://wikipedia.org/">
+                        <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Wikipedia-logo-v2-wordmark.svg">
+                    </a>
+                </div>
+                <div class="nav">
+                    <h6 class="header">Contents</h6>
+                    <a class="nav-link" href="#">Early life</a>
+                    <a class="nav-link" href="#">Career</a>
+                    <a class="nav-link" href="#">Wheat research in Mexico</a>
+                    <div class="subnav">
+                        <a class="nav-link" href="#">Double wheat season</a>
+                        <a class="nav-link" href="#">multiline varieties</a>
+                        <a class="nav-link" href="#">Dwarfing</a>
+                    </div>
+                    <a class="nav-link" href="#">Later roles</a>
+                    <a class="nav-link" href="#">Death</a>
+                    <a class="nav-link" href="#">References</a>
+                </div>
+            </nav>
+
+            <div id="page" class="container">
+                <div id="article"><!-- start page -->
+
+                    <div id="options">
+                        <div id="option-links">
+                            <a class="action" href="#">
+                                <i class="fas fa-edit"></i>
+                            </a>
+                            <a class="action" href="#">
+                                <i class="fas fa-user float-right"></i>
+                            </a>
+                        </div>
+                        <form id="search-box"><!-- start search box -->
+                            <div class="addon">
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <input type="text" id="search-box-input" placeholder="Search">
+                        </form><!-- end search box -->
+                    </div>
+
+
+                    <div id="tribute-info">
+                        <div class="badge">
+                            This is a wikipedia redesign. For the real wikipedia article see <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Norman_Borlaug">Dr. Norman Borlaug</a>
+                        </div>
+
+                        <section>
+                            <h1 id="title">Dr. Norman Borlaug</h1>
+                            <p>
+                                Norman Ernest Borlaug (March 25, 1914 – September 12, 2009)[3] was an American agronomist and humanitarian who led initiatives worldwide that contributed to the extensive increases in agricultural production termed the Green Revolution. Borlaug was awarded multiple honors for his work, including the Nobel Peace Prize, the Presidential Medal of Freedom and the Congressional Gold Medal.
+
+                                Borlaug received his B.S. in forestry in 1937 and Ph.D. in plant pathology and genetics from the University of Minnesota in 1942. He took up an agricultural research position in Mexico, where he developed semi-dwarf, high-yield, disease-resistant wheat varieties.[1][2] During the mid-20th century, Borlaug led the introduction of these high-yielding varieties combined with modern agricultural production techniques to Mexico, Pakistan, and India. As a result, Mexico became a net exporter of wheat by 1963. Between 1965 and 1970, wheat yields nearly doubled in Pakistan and India, greatly improving the food security in those nations.[4]
+                            </p>
+                        </section>
+
+                        <section>
+                        <h2>Early life</h2>
+                            <p>
+                                Borlaug was often called "the father of the Green Revolution",[5][6] and is credited with saving over a billion people worldwide from starvation.[7][8][9][10] According to Jan Douglas, executive assistant to the president of the World Food Prize Foundation, the source of this number is Gregg Easterbrook's 1997 article "Forgotten Benefactor of Humanity." The article states that the "form of agriculture that Borlaug preaches may have prevented a billion deaths."[11] He was awarded the Nobel Peace Prize in 1970 in recognition of his contributions to world peace through increasing food supply.
+                                    
+                                Later in his life, he helped apply these methods of increasing food production in Asia and Africa.
+                            </p>
+                        </section>
+                    </div>
+
+                </div><!-- end page -->
+
+                <div id="infos"><!-- start infos -->
+                    <div id="img-div">
+                        <img id="image" src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg" alt="pic from flickr" />
+                        <div id="img-caption">
+                            Dr. Norman Borlaug, second from left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.
+                        </div>
+                    </div>
+                </div><!-- end infos -->
+            </div><!-- end main -->
+        </div><!-- end wrap -->
 
         <!--build:js js/bundle.min.js -->
         <script src="js/index.js"></script>
